@@ -1,0 +1,80 @@
+header .container {
+    background-color: rgb(34, 124, 120);
+    height: 70px;
+    width: 1333px;
+    opacity: 0.85;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-list li {
+    list-style: none;
+    float: left;
+    padding: 0px 20px 10px 20px;
+}
+
+.header-list {
+    float: left;
+    font-size: 20px;
+    color: rgb(29, 212, 212);
+}
+
+.header-logo {
+    font-size: 40px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(201, 204, 53);
+    font-family: Georgia, sans-serif;
+}
+
+.header-logo span {
+    color: rgba(43, 255, 0, 0.5);
+}
+
+main {
+    color: black;
+    height: 1000px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 75px 20px 20px 20px;
+}
+
+main .about {
+    font-size: 40px;
+}
+
+footer .container {
+    background-color: rgb(14, 23, 104);
+    height: 120px;
+}
+
+.footer-logo {
+    font-size: 40px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: rgb(201, 204, 53);
+    font-family: Georgia, sans-serif;
+}
+
+.footer-logo span {
+    color: rgba(43, 255, 0, 0.589);
+}
+
+.footer-list {
+    font-size: 20px;
+    float: right;
+    color: rgb(139, 112, 255);
+    padding-top: 10px;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+    list-style: none;
+    padding-right: 10px;
+}
