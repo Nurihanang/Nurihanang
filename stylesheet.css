@@ -37,15 +37,19 @@ header {
 }
 
 main {
-    color: black;
-    height: 1000px;
+    height: 550px;
     font-size: 20px;
     font-family: sans-serif;
     margin: 75px 20px 20px 20px;
 }
 
+main .container {
+    background-image: linear-gradient(to bottom right, rgba(72, 25, 133, 0.753), rgba(22, 155, 62, 0.521));
+}
+
 .introduction {
     z-index: 2;
+    padding-bottom: 20px;
 }
 
 img {
