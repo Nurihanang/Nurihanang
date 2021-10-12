@@ -2,12 +2,11 @@ header .container {
     background-color: rgb(34, 124, 120);
     height: 70px;
     width: 1333px;
-    opacity: 0.95555;
 }
 
 header {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 0px;
     z-index: 10;
 }
 
@@ -40,16 +39,11 @@ main {
     height: 550px;
     font-size: 20px;
     font-family: sans-serif;
-    margin: 75px 20px 20px 20px;
 }
 
-main .container {
+main .intro-container {
     background-image: linear-gradient(to bottom right, rgba(72, 25, 133, 0.753), rgba(22, 155, 62, 0.521));
-}
-
-.introduction {
-    z-index: 2;
-    padding-bottom: 20px;
+    margin-top: 80px;
 }
 
 img {
@@ -73,7 +67,7 @@ h1 {
 }
 
 footer .container {
-    background-color: rgb(14, 23, 104);
+    background-image: linear-gradient(to right, rgb(79, 16, 94), rgb(102, 102, 31));
     height: 120px;
 }
 
